@@ -56,3 +56,9 @@ html {
       transition: all 0.05s;
       transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);    
     }
+    
+    #electricWatch{
+        margin: 20px; 
+        background-color: white; 
+        padding: 15px;
+    }   

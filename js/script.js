@@ -20,3 +20,20 @@ function setDate(){
 };
 
 setInterval(setDate, 1000);
+
+function display(){
+
+    var today = new Date();
+    var houres = today.getHours();
+    var minutes = today.getMinutes();
+    var secondes = today.getSeconds();
+    if(secondes < 10) secondes = "0" + secondes;
+
+    document.getElementById('electricWatch').innerHTML = houres + " : " + minutes + " : " + secondes;
+
+    
+}
+
+setInterval("display()", 1000);
+
+
