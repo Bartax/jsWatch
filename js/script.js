@@ -26,6 +26,7 @@ function display(){
     var today = new Date();
     var houres = today.getHours();
     var minutes = today.getMinutes();
+    if(minutes < 10) minutes = "0" + minutes;
     var secondes = today.getSeconds();
     if(secondes < 10) secondes = "0" + secondes;
 
